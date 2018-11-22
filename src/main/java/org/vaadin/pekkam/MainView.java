@@ -13,5 +13,6 @@ public class MainView extends VerticalLayout {
     public MainView() {
         add(new PushComponent());
         add(new BroadcastComponent());
+        add(new CollaborativeTextArea());
     }
 }
